@@ -18,5 +18,4 @@ func concedeEmprestimo(idade int, empregado bool, anoAtividade int, salario floa
 
 func main()  {
 	concedeEmprestimo(31, true, 2, 15.000)
-	
 }

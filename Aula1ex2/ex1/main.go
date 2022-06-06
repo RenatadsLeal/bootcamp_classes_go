@@ -13,5 +13,18 @@ func main() {
 		fmt.Printf("%c\n", letter)
 	}
 
-	fmt.Printf("%s tem %d letras", fruit, contador)
+	fmt.Printf("%s tem %d letras \n", fruit, contador)
+
+
+	//////////////////////////////////////////////////
+
+	bootcamp := "Bootcamp GO W1"
+
+	fmt.Println("tamanho:", len(bootcamp))
+
+	for _, r := range bootcamp {
+		fmt.Println(string(r))
+	}
+
+
 }
